@@ -20,5 +20,12 @@ class Ponto{
 			p2.setX(15);
 			p2.setY(30);
 		System.out.println(Math.sqrt(((p1.x-p2.x)*(p1.x-p2.x))*((p1.y-p2.y)*(p1.y-p2.y))));
+		Reta r1 = new Reta();
+		r1.setP1(p1);
+		r1.setP2(p2);
+		r1.getP1().getX();
+		r1.getP2().getY();
+		p1.setX(30);
+		r1.getP2().setY(40);
 	}
 }
