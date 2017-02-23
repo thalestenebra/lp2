@@ -19,12 +19,6 @@ class Ponto{
 		Ponto p2 = new Ponto();
 			p2.setX(15);
 			p2.setY(30);
-		Ponto p3 = new Ponto();
-			p3.setX(50);
-			p3.setY(70);
-		p3 = p1;
-		System.out.println(p1.getX() + "-" + p1.getY());
-		System.out.println(p2.getX() + "-" + p2.getY());
-		System.out.println(p3.getX() + "-" + p3.getY());
+		System.out.println(Math.sqrt(((p1.x-p2.x)*(p1.x-p2.x))*((p1.y-p2.y)*(p1.y-p2.y))));
 	}
 }
