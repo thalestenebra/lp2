@@ -1,4 +1,4 @@
-class Ponto{
+public class Ponto{
 	private double x, y;
 	public void setX(double x){
 		this.x = x;
@@ -27,5 +27,9 @@ class Ponto{
 		r1.getP2().getY();
 		p1.setX(30);
 		r1.getP2().setY(40);
+		System.out.println(r1.getP1().getX());
+		System.out.println(r1.getP1().getY());
+		System.out.println(r1.getP2().getX());
+		System.out.println(r1.getP2().getY());
 	}
 }
