@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.alunos.myapplication.FatorialActivity">
+
+    <TextView
+        android:id="@+id/text6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Número:"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="29dp" />
+
+    <EditText
+        android:id="@+id/edit_Fatorial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/text6"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="29dp" />
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="calcularFatorial"
+            android:text="Calcular"
+            tools:layout_editor_absoluteX="214dp"
+            tools:layout_editor_absoluteY="95dp"
+            android:layout_above="@+id/txt_Fatorial"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="134dp" />
+
+        <TextView
+            android:id="@+id/txt_Fatorial"
+            android:layout_width="match_parent"
+            android:layout_height="108dp"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="69dp"
+            tools:layout_editor_absoluteY="349dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>
